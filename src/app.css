@@ -1,0 +1,27 @@
+:root {
+    color-scheme: light dark;
+    /*Colors*/
+    --brand-color: #f06449;
+    --darkest-color: #222222;
+    --dark-color: #36382e;
+    --mid-color: #dadad9;
+    --light-color: #ede6e3;
+    --lightest-color: #ffffff;
+
+    /*Palette*/
+    --background-color: var(--darkest-color);
+    --surface1-color: var(--dark-color);
+    --surface2-color: var(--dark-color);
+    --text1-color: var(--lightest-color);
+    --text2-color: var(--light-color);
+    --text3-color: var(--mid-color);
+}
+
+[color-scheme='light'] {
+    --background-color: var(--mid-color);
+    --surface1-color: color-mix(in srgb, var(--mid-color) 90%, black);
+    --surface2-color: color-mix(in srgb, var(--surface1-color) 40%, white);
+    --text1-color: var(--darkest-color);
+    --text2-color: var(--dark-color);
+    --text3-color: var(--dark-color);
+}
