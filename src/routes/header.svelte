@@ -31,7 +31,6 @@
 		</ul>
 
 		<Toggle />
-		
 	</nav>
 </header>
 
@@ -79,12 +78,12 @@
 	a {
 		text-decoration: none;
 		position: relative;
-		
+
 		&:is(:link, :visited) {
 			color: var(--text1-color);
 		}
 	}
-	
+
 	a:not(.title) {
 		transition: 1s;
 
@@ -141,6 +140,4 @@
 			width: 50%;
 		}
 	}
-
-	
 </style>

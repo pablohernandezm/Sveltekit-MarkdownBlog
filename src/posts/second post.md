@@ -9,7 +9,6 @@ categories:
 published: true
 ---
 
-
 I was walking down the street today when I saw a man walking his dog. The dog was wearing a hat, and I couldn't help but laugh. I mean, who puts a hat on a dog?
 
 I started to walk faster so I could catch up to the man and ask him why he had put a hat on his dog. But before I could, the dog started to bark at me. And not just any bark. It was a really loud, aggressive bark.

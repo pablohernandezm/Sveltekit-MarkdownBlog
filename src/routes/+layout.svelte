@@ -2,13 +2,17 @@
 	import 'modern-normalize';
 	import Header from './header.svelte';
 	import Footer from './footer.svelte';
-	import '../app.css'
+	import Transition from './transition.svelte';
+	import '../app.css';
+	export let data;
 </script>
 
 <div class="layout">
 	<Header />
 	<main>
-		<slot />
+		<Transition url={data.url}>
+			<slot />
+		</Transition>
 	</main>
 	<Footer />
 </div>

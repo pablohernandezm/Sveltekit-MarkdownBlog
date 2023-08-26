@@ -1,12 +1,11 @@
 <script>
-    import { toggleTheme } from "$lib/storage/theme"
-
+	import { toggleTheme } from '$lib/storage/theme';
 </script>
 
 <button on:click={toggleTheme}> Theme </button>
 
 <style>
-    button {
+	button {
 		background-color: transparent;
 		border: 2px solid var(--brand-color);
 		padding-inline: 1rem;
