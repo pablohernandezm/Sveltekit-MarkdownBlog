@@ -23,7 +23,7 @@ export const GET: RequestHandler = async ({ fetch }) => {
 								(post) => `
                 <item>
                     <title>${post.title}</title>
-                    <link>${config.url}/posts/${post.slug}</link>
+                    <link>${config.url}/${post.slug}</link>
                     <description>${post.description}</description>
                     <pubDate>${new Date(post.date).toUTCString()}</pubDate>
                 </item>
